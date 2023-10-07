@@ -1,0 +1,68 @@
+
+// Standard extensions get all permissions by default
+
+grant codeBase "file:${{java.ext.dirs}}/*" {
+        permission java.security.AllPermission;
+};
+
+// default permissions granted to all domains
+
+grant {
+        // Allows any thread to stop itself using the java.lang.Thread.stop()
+        // method that takes no argument.
+        // Note that this permission is granted by default only to remain
+        // backwards compatible.
+        // It is strongly recommended that you either remove this permission
+        // from this policy file or further restrict it to code sources
+        // that you specify, because Thread.stop() is potentially unsafe.
+        // See the API specification of java.lang.Thread.stop() for more
+        // information.
+        permission java.lang.RuntimePermission "stopThread";
+
+        // allows anyone to listen on dynamic ports
+        permission java.net.SocketPermission "localhost:0", "listen";
+
+        // "standard" properies that can be read by anyone
+
+        permission java.util.PropertyPermission "java.version", "read";
+        permission java.util.PropertyPermission "java.vendor", "read";
+        permission java.util.PropertyPermission "java.vendor.url", "read";
+        permission java.util.PropertyPermission "java.class.version", "read";
+        permission java.util.PropertyPermission "os.name", "read";
+        permission java.util.PropertyPermission "os.version", "read";
+        permission java.util.PropertyPermission "os.arch", "read";
+        permission java.util.PropertyPermission "file.separator", "read";
+        permission java.util.PropertyPermission "path.separator", "read";
+        permission java.util.PropertyPermission "line.separator", "read";
+
+        permission java.util.PropertyPermission "java.specification.version", "read";
+        permission java.util.PropertyPermission "java.specification.vendor", "read";
+        permission java.util.PropertyPermission "java.specification.name", "read";
+
+        permission java.util.PropertyPermission "java.vm.specification.version", "read";
+        permission java.util.PropertyPermission "java.vm.specification.vendor", "read";
+        permission java.util.PropertyPermission "java.vm.specification.name", "read";
+        permission java.util.PropertyPermission "java.vm.version", "read";
+        permission java.util.PropertyPermission "java.vm.vendor", "read";
+        permission java.util.PropertyPermission "java.vm.name", "read";
+	permission java.util.PropertyPermission "java.net.preferIPv4Stack", "write";
+	permission java.lang.RuntimePermission "shutdownHooks";
+
+        permission java.util.PropertyPermission "sun.security.pkcs11.disableKeyExtraction", "read";
+
+	permission java.lang.RuntimePermission "getenv.*"; // Required by log4j
+  	permission java.lang.RuntimePermission "getStackWalkerWithClassReference"; // Required by log4j. Can get objects up the chain of calling classes
+  	permission java.lang.RuntimePermission "accessDeclaredMembers"; // Required by log4j. Can only read function names, not an attack vector (since these are public domain)
+  
+  	permission java.lang.reflect.ReflectPermission "suppressAccessChecks"; // Minecraft needs this, which isn't great. This basically allows it to call any function discarding qualifiers
+  
+  	permission java.lang.RuntimePermission "getenv.*"; // Required by log4j
+  	permission java.lang.RuntimePermission "getStackWalkerWithClassReference"; // Required by log4j. Can get objects up the chain of calling classes
+  	permission java.lang.RuntimePermission "accessDeclaredMembers"; // Required by log4j. Can only read function names, not an attack vector (since these are public domain)
+  
+  	permission java.lang.reflect.ReflectPermission "suppressAccessChecks"; // Minecraft needs this, which isn't great. This basically allows it to call any function discarding qualifiers
+
+	permission java.lang.RuntimePermission "getClassLoader";
+  
+};
+
