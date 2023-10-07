@@ -1,1 +1,0 @@
-"files/azul-1.8.9/bin/java.exe" -Xms1000M -Xmx2000M -Djava.library.path="files/1.8.9-natives" -cp "files/Atani.jar;files/lwjgl.jar;files/lwjgl_util.jar" net.minecraft.client.main.Main -uuid fc5bc365-aedf-30a8-8b89-04e462e29bde -username TrilliumINC -accessToken yes -version 1 --assetIndex 1.8
