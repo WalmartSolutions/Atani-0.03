@@ -3,7 +3,8 @@
 **Trillium INC: https://discord.gg/vzXzFpv2gk**
 
 # Why?
-They use fuqing Free MyJ2C obfuscator LMAO. The client is somewhat decent tbf and bypasses on some server ig.
+
+They use Free MyJ2C obfuscator, LMAO. That kid just chose one of the worst possible obfuscators he could have chosen. The client is somewhat decent, to be fair, and it bypasses some servers, I guess. I respect the devs that have contributed to Atani (not you, Luca, you are a skid and Kellohilly, you are a 11 ret4rd) and actually added something cool (like MarkGG, Liticane and tabio that made most of the stuff). 
 
 # Client crashes?
 
