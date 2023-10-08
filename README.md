@@ -31,7 +31,7 @@ MarkGG, Luca, Kellohilly, Liticane - Developers of the Client.
 
 fekxyz - Jar.
 
-# GUI (There is multiple themes dw)
+# GUI (There are multiple themes dw)
 ![image](https://media.discordapp.net/attachments/1143170663658553434/1160156043423260713/image.png?ex=6533a283&is=65212d83&hm=dfd95b83a23b0d8acab8a870473cff2e83754bd5f7e322ea36bc969eebf8e28f&=&width=842&height=615)
 
 # HWID-List 07.10. 2023
