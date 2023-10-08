@@ -6,6 +6,9 @@
 
 They use Free MyJ2C obfuscator, LMAO. That kid just chose one of the worst possible obfuscators he could have chosen. The client is somewhat decent, to be fair, and it bypasses some servers, I guess. I respect the devs that have contributed to Atani (not you, Luca, you are a skid and Kellohilly, you are a 11 ret4rd) and actually added something cool (like MarkGG, Liticane and tabio that made most of the stuff). 
 
+The 11 year old "developer" admitting the client is skidded:\
+![image](https://i.imgur.com/8QIY4Dr.png)
+
 # Client crashes?
 
 Since the last remaining developer of Atani uses the free version of MyJ2C (he could just use the native obfuscation provided by radios because MyJ2C essentially copied it), there may be an issue. This issue is expected to occur after October 11, 2023, as there is an expiration date. To fix this issue, please adjust the [local time on Windows](https://support.microsoft.com/en-us/windows/how-to-set-your-time-and-time-zone-dfaa7122-479f-5b98-2a7b-fa0b6e01b261#:~:text=In%20Date%20%26%20time%2C%20you%20can,%26%20language%20>%20Date%20%26%20time.) or any other operating system (OS) that you are using.
