@@ -6,6 +6,9 @@
 
 They use Free MyJ2C obfuscator, LMAO. That kid just chose one of the worst possible obfuscators he could have chosen. The client is somewhat decent, to be fair, and it bypasses some servers, I guess. I respect the devs that have contributed to Atani (not you, Luca, you are a skid and Kellohilly, you are a 11 ret4rd) and actually added something cool (like MarkGG, Liticane and tabio that made most of the stuff).
 
+The 11 year old (s)kid admitting that the client is skidded 💀
+![image](https://i.imgur.com/8QIY4Dr.png)
+
 # Atani is vulnerable!!! (!!!USED AT YOUR OWN RISK!!!)
 
 ![image](https://i.imgur.com/PaP0DjW.png)
